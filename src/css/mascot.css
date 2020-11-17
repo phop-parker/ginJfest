@@ -1,0 +1,90 @@
+@font-face { font-family: 'lyf_mulanbook';
+  src: url('lyf_mulan-webfont.woff2') format('woff2'),
+       url('lyf_mulan-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fc_activelight';
+  src: url('fc_active_light-webfont.woff2') format('woff2'),
+       url('fc_active_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cloudlight';
+  src: url('cloud-light-webfont.woff2') format('woff2'),
+       url('cloud-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'fc_activeregular';
+  src: url('fc_active_regular-webfont.woff2') format('woff2'),
+       url('fc_active_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.nongtofu{
+  width: 100px;
+  animation: Jdance 1.75s linear infinite;
+  margin: 25px;
+  margin-left:100px ;
+  margin-right: 100px;
+  text-align: center;
+}
+
+@keyframes Jdance {
+  0%{
+    transform: rotate(0deg) scale(1.5);
+  }
+  25%{
+    transform: rotate(35deg) scale(2);
+  }
+  50%{
+    transform: rotate(0deg) scale(2.5);
+  }
+  75%{
+    transform: rotate(-35deg) scale(2);
+  }
+  100%{
+    transform: rotate(0deg) scale(1.5);
+  }
+}
+
+.invite{
+  margin-top: 60pt;
+  padding: 25pt;
+  background-image: url(../image/Food\ Frame.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 40pt;
+    font-family: 'fc_activelight';
+}
+.cloud5 img{
+  position : absolute;
+  right:200px;
+  left: -200px;
+}
+.cloud6 img{
+  position : relative;
+  left:900px;
+  
+}
+.props{
+  text-align: center;
+}
+.Mascot{
+ margin-top: 0;
+    padding-bottom: 360pt;
+    background-color: #cda062;
+    background-image: url(../image/bg2.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}

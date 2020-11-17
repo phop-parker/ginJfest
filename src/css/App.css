@@ -1,0 +1,307 @@
+@font-face { font-family: 'lyf_mulanbook';
+  src: url('lyf_mulan-webfont.woff2') format('woff2'),
+       url('lyf_mulan-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'fc_activelight';
+  src: url('fc_active_light-webfont.woff2') format('woff2'),
+       url('fc_active_light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'cloudlight';
+  src: url('cloud-light-webfont.woff2') format('woff2'),
+       url('cloud-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'fc_activeregular';
+  src: url('fc_active_regular-webfont.woff2') format('woff2'),
+       url('fc_active_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.jfest{
+  padding-top:80pt;
+  margin-left : 225pt;
+  display: flex;
+
+}
+.jtopic{
+ 
+  color: #D45B46;
+  font-size: 220pt;
+  font-family:'lyf_mulanbook' ;
+  margin-top: 18pt;
+}
+.img{
+  margin-left: 40pt;
+  display:inline;
+}
+
+.App {
+  background-image: url(../image/mt2.png);
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin: 0;
+  background-color: #FFF3DB;
+  background-size: 1150pt;
+  padding-bottom: 200pt;
+}
+
+
+.a1{
+  position: absolute;
+  top: 170px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud1 40s linear infinite;
+}
+.a2{
+  position: absolute;
+  top: 280px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud27 15s linear infinite;
+}
+.a3{
+  position: absolute;
+  top:  1000px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud385 25s linear infinite;
+}
+.a4{
+  position: absolute;
+  top: 1900px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud4569 16s linear infinite;
+}
+.a5{
+  position: absolute;
+  top: 4080px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud4569 18s linear infinite;
+}
+.a6{
+  position: absolute;
+  top: 5700px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud4569 21s linear infinite;
+}
+.a7{
+  position: absolute;
+  top: 6550px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud27 24s linear infinite;
+}
+.a8{
+  position: absolute;
+  top: 7000px;left: 0px;right: 400px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud38 27s linear infinite;
+  
+}
+.a9{
+  position: absolute;
+  top: 7400px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+  animation: Cloud4569 30s linear infinite;
+}
+
+.S img{
+  width: 200px;
+}
+
+.M img{
+  width: 450px;
+}
+
+.L img{
+  width: 600px;
+}
+
+@keyframes Cloud1 {
+  0%{right: 0px;}
+  50%{right: 1000px;}
+  100%{right: 0px;}
+}
+
+@keyframes Cloud27 {
+  0%{left: -1600px;}
+  50%{left: -1400px;}
+  100%{left: -1600px;}
+}
+
+@keyframes Cloud38 {
+  0%{left: -1500px;}
+  50%{left: -1000px;}
+  100%{left: -1500px;}
+}
+
+@keyframes Cloud385 {
+  0%{left: -1600px;}
+  50%{left: -1100px;}
+  100%{left: -1600px;}
+}
+
+@keyframes Cloud4569 {
+  0%{left: 1000px;}
+  50%{left: 700px;}
+  100%{left: 1000px;}
+}
+
+.w1 {
+  position: absolute;
+  top: 500pt; left: 1119px;right: 0px;bottom: 0px;
+  width: 400px;
+
+}
+
+.w2 {
+  position: absolute;
+  top: 850pt; left: 1169px;right: 0px;bottom: 0px;
+  width: 350px;
+
+}
+
+.w2 {
+  position: absolute;
+  top: 850pt; left: 1169px;right: 0px;bottom: 0px;
+  width: 350px;
+
+}
+
+.w3 {
+  position: absolute;
+  top: 2200pt; left: 1169px;right: 0px;bottom: 0px;
+  width: 350px;
+
+}
+
+.w4 {
+  position: absolute;
+  top: 2700pt; left: 0px;right: 1169px;bottom: 0px;
+  width: 280px;
+
+}
+
+.w5 {
+  position: absolute;
+  top: 3330pt; left: 0px;right: 1169px;bottom: 0px;
+  width: 300px;
+
+}
+
+.w6 {
+  position: absolute;
+  top: 4400pt; left: 0px;right: 1169px;bottom: 0px;
+  width: 300px;
+
+}
+
+.w7 {
+  position: absolute;
+  top: 5300pt; left: 1218px;right: 0px;bottom: 0px;
+  width: 300px;
+
+}
+
+
+/* .w1 img{
+  position: absolute;
+  left:0px; 
+  right:0px; 
+  top:0px;
+ width: auto;
+ 
+animation: wind1 20s linear infinite;
+}
+
+@keyframes wind1 {
+  0%{left: 0px;}
+  50%{left: 0px;}
+  100%{left: 0px;}
+}
+
+.w2 {
+  position: relative;
+  top: 780pt; left: 1080px;right: 0px;bottom: 0px;
+  
+}
+
+
+.w2 img{
+    position: absolute;
+    left:1169px; 
+    right:0px; 
+    top:20px;
+    overflow: hidden;
+  animation: wind2 20s linear infinite;
+  }
+
+   @keyframes wind2 {
+  0%{left: 880px;}
+  50%{left: 1040px;}
+  100%{left: 880px;}
+}
+
+  .w3 {
+    overflow: hidden;
+    position: absolute;
+    top: 2550pt; left: 200px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    animation: wind3 2s linear infinite;
+  }
+
+  @keyframes wind3 {
+    0%{left: 200px;}
+    50%{left: 0px;}
+    100%{left: 200px;}
+  } */
+
+
+
+/* .wind2 {
+  position: relative;
+  top:  0px;left: 0px;right: 0px;bottom: 0px;
+
+  margin: 0 auto;
+}
+.wind3 {
+  position: relative;
+  top:  0px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+}
+.wind4 {
+  position: relative;
+  top:  0px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+}
+.wind5 {
+  position: relative;
+  top:  0px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+}
+.wind6 {
+  position: relative;
+  top:  0px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+}
+.wind7 {
+  position: relative;
+  top:  0px;left: 0px;right: 0px;bottom: 0px;
+  margin: 0 auto;
+}
+
+.wind1 img {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+} */
+

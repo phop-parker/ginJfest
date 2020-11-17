@@ -1,0 +1,135 @@
+@font-face { font-family: 'lyf_mulanbook';
+    src: url('lyf_mulan-webfont.woff2') format('woff2'),
+         url('lyf_mulan-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'fc_activelight';
+    src: url('fc_active_light-webfont.woff2') format('woff2'),
+         url('fc_active_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'cloudlight';
+    src: url('cloud-light-webfont.woff2') format('woff2'),
+         url('cloud-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+  @font-face {
+    font-family: 'fc_activeregular';
+    src: url('fc_active_regular-webfont.woff2') format('woff2'),
+         url('fc_active_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
+.membertp{
+    text-shadow : 3px 3px 6px #000000;
+    
+    text-align: center;
+    color: black;
+    font-size: 144pt;
+    font-family:'lyf_mulanbook' ;
+  }
+  .memberimg{
+      position: absolute;
+  }
+
+.memberthtp{
+    font-size: 44pt;
+    color: #8A2424;
+    font-family: 'fc_activeregular';
+    text-align: center;
+
+}
+.Member{
+    background-color: #FFF3DB;
+    padding-bottom: 800pt;
+    background-image: url(../image/moon1.png);
+    background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.m1 {
+    position: absolute;
+    top: 0px;left: 40px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    animation : Inw1 20s linear infinite;  
+}
+.m2 {
+    position: absolute;
+    top: 150px;left: 500px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    animation : Inw2 20s linear infinite;  
+}
+.m3 {
+    position: absolute;
+    top: -100px;left: 1000px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    animation : Inw3 20s linear infinite;  
+}
+.m4 {
+    position: absolute;
+    top: 430px;left: 120px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    animation : Inw4 20s linear infinite;  
+}
+.m5 {
+    position: absolute;
+    top: 610px;left: 520px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    animation : Inw5 20s linear infinite;  
+}
+.m6 {
+    position: absolute;
+    top: 350px;left: 840px;right: 0px;bottom: 0px;
+    margin: 0 auto;
+    padding: 20px;
+    animation : Inw6 20s linear infinite;  
+}
+
+@keyframes Inw1 {
+  0%{left:  160px;}
+    50%{left: 60px;}
+    100%{left: 160px;}
+}
+
+@keyframes Inw2 {
+  0%{left: 600px;}
+    50%{left: 400px;}
+    100%{left: 600px;}
+}
+
+@keyframes Inw3 {
+  0%{left: 1000px;}
+    50%{left: 900px;}
+    100%{left: 1000px;}
+}
+
+@keyframes Inw4 {
+  0%{left: 120px;}
+    50%{left: 220px;}
+    100%{left: 120px;}
+}
+
+@keyframes Inw5 {
+  0%{left: 520px;}
+    50%{left: 620px;}
+    100%{left: 520px;}
+}
+
+@keyframes Inw6 {
+  0%{left: 840px;}
+    50%{left: 960px;}
+    100%{left: 840px;}
+}
